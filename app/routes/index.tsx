@@ -34,7 +34,7 @@ export default function Index() {
         <picture>
           <source  media="(min-width: 800px)" srcSet={IMGHeroDesktop}/>
           <source  media="(min-width: 480px)" srcSet={IMGHeroTablet}/>
-          <img className="home_header_image" src={IMGHeroMobile} alt="" />
+          <img className="home_header_image" src={IMGHeroMobile}/>
         </picture>
         <div className="home_header_text">
             <h1>Scooter sharing made simple</h1>

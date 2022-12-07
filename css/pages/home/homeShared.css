@@ -99,7 +99,8 @@ select {
   background-color: white; }
 
 .home_header {
-  position: relative; }
+  position: relative;
+  overflow: hidden; }
   .home_header button {
     width: 180px;
     height: 53px;
