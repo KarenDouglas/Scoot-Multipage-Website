@@ -1,0 +1,146 @@
+/* --------*/
+
+/* RESET */
+
+/* ------*/
+
+
+
+/* BOX SIZING*/
+
+
+
+*,
+
+*::before,
+
+*::after {
+
+  box-sizing: border-box;
+
+}
+
+
+
+body,
+
+header,
+
+h1,
+
+h2,
+
+h3,
+
+h4,
+
+h5,
+
+p,
+
+figure,
+
+picture {
+
+  margin: 0;
+
+ 
+
+}
+
+
+
+ul {
+
+  list-style: none;
+
+}
+
+a{
+
+  text-decoration: none;
+
+
+}
+
+
+
+/*SET UP THE BODY*/
+
+
+
+body{
+
+  line-height: 1.5;
+
+  min-height: 100vh; // prevent short pages from being an issue
+
+}
+
+
+
+/*MAKE IMG EASIER TO WORK WITH*/
+
+img,
+
+picture{
+
+  max-width: 100%;
+
+  display: block;
+
+}
+
+
+
+/*MAKE FORMS EASIER TO WORK WITH*/
+
+
+
+input,
+
+button,
+
+textarea,
+
+select {
+
+ font: inherit
+
+}
+
+
+
+/* Remove all animations, transitions and smooth scroll for people that prefer not to see them */
+
+@media (prefers-reduced-motion: reduce) {
+
+  html:focus-within {
+
+   scroll-behavior: auto;
+
+  }
+
+ 
+
+  *,
+
+  *::before,
+
+  *::after {
+
+    animation-duration: 0.01ms !important;
+
+    animation-iteration-count: 1 !important;
+
+    transition-duration: 0.01ms !important;
+
+    scroll-behavior: auto !important;
+
+  }
+
+}
+
+
+
+/* END OF RESETS*/

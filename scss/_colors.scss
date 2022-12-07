@@ -1,0 +1,21 @@
+$colors:(
+    "yellow": $yellow,
+    "dark-navy": $dark-navy,
+    "dark-grey": $dark-grey,
+    "light-grey": $light-grey,
+    "snow": $snow,
+    "light-yellow": $light-yellow,
+    "white": white
+
+);
+
+
+
+@each $key,$val in $colors{
+    .text-#{$key}{
+        color: $val;
+    }
+    .bg-#{$key}{
+        background-color: $val;
+    }
+} 

@@ -1,0 +1,27 @@
+// variables & functions
+@import "scss/variables";
+@import "scss/colors";
+@import "scss/fonts";
+
+
+.home_svg-right-arrow{
+    margin-top: 30px;
+    bottom: 0;
+    left: -160px;
+}
+
+h1{
+        @include f56-sm;
+        line-height: 1em;
+         
+} 
+.home_svg-line{
+    display: none;
+}
+.home_svg-white-circles{ 
+    bottom: 0;
+    right: -30px;
+}
+.home_header_text{
+    padding: 0 50px;
+}

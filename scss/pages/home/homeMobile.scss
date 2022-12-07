@@ -1,0 +1,28 @@
+// Home Page Styles
+
+
+// variables & functions
+@import "scss/variables";
+@import "scss/colors";
+@import "scss/breakpoints";
+@import "scss/fonts";
+
+
+
+
+    h1{
+        @include f40-sm;
+        line-height: 1em;    
+        } 
+
+  
+    .home_svg-line,.home_svg-white-circles{
+        display: none;
+    }
+ 
+    .home_svg-right-arrow{
+        margin-top: 30px;
+        bottom: 0;
+        left: -280px ;
+    }
+    

@@ -1,0 +1,27 @@
+// f(font) #(pxs) sm(space-mono)
+
+//h1 styles
+@mixin  f56-sm{
+    font-family: $space-mono;
+    font-size: 3.5em;
+    
+}
+//h2 styles
+@mixin f48-sm {
+    font-family: $space-mono;
+    font-size: 3em;
+    
+}
+
+//h3 styles
+@mixin f40-sm {
+    font-family: $space-mono;
+    font-size: 2.5em;
+}
+
+//h4 styles
+@mixin f24-sm {
+    font-family: $space-mono;
+    font-size: 1.75em;
+    
+}
