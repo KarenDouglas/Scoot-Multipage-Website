@@ -1,0 +1,55 @@
+// variables & functions
+@import "scss/variables";
+@import "scss/colors";
+@import "scss/fonts";
+
+
+.home_svg-right-arrow{
+position: absolute;
+top: 56%;
+right: -20%;
+}
+
+h1{
+    padding: 0 150px;
+    @include f56-sm;
+    line-height: 1em;
+    max-width: 900px;
+} 
+
+.home_svg-white-circles{ 
+position: absolute;
+bottom: 0;
+right: -65%;
+}
+
+.home_header_text{
+    display: grid;
+    position: absolute;
+    top:0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    color: $snow;
+    max-width: fit-content;
+    max-height: fit-content;
+    align-items: center;
+    gap: 2em;
+    margin: auto 0;
+}
+
+.home_header_text p{
+     max-width: 420px;
+
+}
+.home_svg-line{
+margin-right: 16px;
+
+}
+.home_text-image{
+    display: flex;
+    align-items: center;
+}
+.home_header button{
+margin-left: 216px;
+}

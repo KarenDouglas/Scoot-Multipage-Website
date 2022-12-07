@@ -9,7 +9,9 @@
 
 
 
-
+.home_header button{
+    margin: auto;
+}
     h1{
         @include f40-sm;
         line-height: 1em;    
@@ -21,8 +23,12 @@
     }
  
     .home_svg-right-arrow{
+        position: absolute;
         margin-top: 30px;
-        bottom: 0;
+        bottom: -150px;
         left: -280px ;
     }
-    
+    .home_header_text{
+        padding: 0 30px;
+        margin: auto;
+    }

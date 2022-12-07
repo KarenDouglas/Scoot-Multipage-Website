@@ -14,7 +14,6 @@
     button{
         width: 180px;
         height: 53px;
-        margin: auto;
     }
 }
 
@@ -25,10 +24,9 @@
     height: 650px;
     object-fit: cover; 
     margin: 0; 
-    overflow: hidden;
+
 } 
 .home_header_text{
-    padding: 0 30px;
     display: grid;
     position: absolute;
     top:0;
@@ -38,11 +36,10 @@
     color: $snow;
     max-width: fit-content;
     max-height: fit-content;
-    text-align: center;
-    margin: auto;
     align-items: center;
     gap: 2em;
 }
-.home_svg-right-arrow, .home_svg-white-circles{
-    position: absolute;
+
+.home_svg-white-circles{
+    background: transparent;
 }

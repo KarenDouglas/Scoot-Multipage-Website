@@ -3,10 +3,13 @@
 @import "scss/colors";
 @import "scss/fonts";
 
-
+.home_header button{
+    margin: auto;
+}
 .home_svg-right-arrow{
+    position: absolute;
     margin-top: 30px;
-    bottom: 0;
+    bottom: -150px;
     left: -160px;
 }
 
@@ -19,9 +22,12 @@ h1{
     display: none;
 }
 .home_svg-white-circles{ 
-    bottom: 0;
+    position: absolute;
+    bottom: -150px;
     right: -30px;
 }
 .home_header_text{
     padding: 0 50px;
+    text-align: center;
+    margin: auto;
 }
