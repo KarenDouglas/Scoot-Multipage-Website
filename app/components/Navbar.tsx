@@ -27,12 +27,12 @@ export default function NavBar({isOpen, setIsOpen}: Props) {
                 <div className="nav_bar">
                     <div
                         className="flex-row align-center nav_icons"
-                        onClick={toggleMenu}
+                        
                     >
-                            {isOpen && <i className="mobile-only nav_icon">
+                            {isOpen && <i className="mobile-only nav_icon" onClick={toggleMenu}>
                             <SvgClose/>
                             </i> }
-                            {!isOpen &&<i className="mobile-only nav_icon">
+                            {!isOpen &&<i className="mobile-only nav_icon"onClick={toggleMenu}>
                             <SvgHamburger/>
                             </i>}
                         <div className="nav_logo">

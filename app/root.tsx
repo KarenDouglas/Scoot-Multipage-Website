@@ -32,11 +32,7 @@ export default function App() {
  
   const [isOpen, setIsOpen]= useState<boolean>(false)
 
-  const toggleMenu = () =>{
-      console.log('start',isOpen)
-      setIsOpen(isOpen =>!isOpen)
-   
-  }
+
   return (
     <html lang="en">
       <head>
