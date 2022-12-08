@@ -17,26 +17,33 @@ interface MenuProps{
 
   interface LinkProps{
     to: string;
-    text: string;
+    text?: string;
+    onClick?:  ()=> void;
+ 
   }
 
-  function NavLink({to, text}: LinkProps){
-    return(
-        <li>
-        <Link to={to}>{text}</Link>
-        </li>
-    )
-  }
+  
 
 export default function NavBar({isOpen, setIsOpen}: MenuProps) {
-    // const [isOpen, setIsOpen]= useState(false)
+
 
     const toggleMenu = () => {
         console.log('start',isOpen)
          setIsOpen(isOpen =>!isOpen)
      
      }
-    
+     const closeMobileMenu = () => {
+        setIsOpen(false)
+        console.log('overlay removed')
+     }
+
+     function NavLink({to, text, onClick = closeMobileMenu}: LinkProps){
+        return(
+            <li>
+            <Link to={to} onClick={onClick}>{text}</Link>
+            </li>
+        )
+      }
     return (
         <div>
             <nav className="nav bg-white">
@@ -51,8 +58,13 @@ export default function NavBar({isOpen, setIsOpen}: MenuProps) {
                             <SvgHamburger/>
                             </i>}
                         <div className="nav_logo">
-                            <i>
+                            <i><Link
+                            to="/"
+                            onClick={closeMobileMenu}
+                            >   
                                 <SvgLogo/>
+
+                            </Link>
                             </i>
                         </div>
                     </div>
