@@ -10,6 +10,7 @@ import {
 } from "@remix-run/react";
 import Navbar from './components/Navbar.js';
 import styles from 'css/Index.css';
+import navMobileStyles from 'css/components/navbarMobile.css';
 
 
 export const links: LinksFunction = () => {
@@ -17,6 +18,11 @@ export const links: LinksFunction = () => {
     {
       rel: "stylesheet",
       href: styles
+    },
+    {
+      rel: "stylesheet",
+      href: navMobileStyles,
+      media:"(max-width: 500px)"
     }
   ]
 }

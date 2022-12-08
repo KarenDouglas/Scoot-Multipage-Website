@@ -1,18 +1,34 @@
 import { useState } from "react";
 import { Link } from "@remix-run/react";
 
+
 // svgs
 import SvgHamburger from "../assets/svg/Hamburger";
 import SvgLogo from "../assets/svg/Logo";
 import SvgClose from "../assets/svg/Close";
 
+
+
 // declaring types for toggle menu state
-interface Props{
+interface MenuProps{
     isOpen: boolean;
     setIsOpen:  React.Dispatch<React.SetStateAction<boolean>>;
   }
 
-export default function NavBar({isOpen, setIsOpen}: Props) {
+  interface LinkProps{
+    to: string;
+    text: string;
+  }
+
+  function NavLink({to, text}: LinkProps){
+    return(
+        <li>
+        <Link to={to}>{text}</Link>
+        </li>
+    )
+  }
+
+export default function NavBar({isOpen, setIsOpen}: MenuProps) {
     // const [isOpen, setIsOpen]= useState(false)
 
     const toggleMenu = () => {
@@ -27,7 +43,6 @@ export default function NavBar({isOpen, setIsOpen}: Props) {
                 <div className="nav_bar">
                     <div
                         className="flex-row align-center nav_icons"
-                        
                     >
                             {isOpen && <i className="mobile-only nav_icon" onClick={toggleMenu}>
                             <SvgClose/>
@@ -46,9 +61,18 @@ export default function NavBar({isOpen, setIsOpen}: Props) {
                             id="nav-links" 
                             className={isOpen? "show nav_links": "hide nav_links"}>
                                 <ul >
-                                    <li><Link to="/about">About</Link></li>
-                                    <li><Link to="/careers">Careers</Link></li>
-                                    <li><Link to="/locations">Locations</Link></li>
+                                    <NavLink 
+                                    to="/about"
+                                    text="About"
+                                    />
+                                    <NavLink 
+                                    to="/careers"
+                                    text="Careers"
+                                    />
+                                    <NavLink 
+                                    to="/locations"
+                                    text="Locations"
+                                    />
                                 </ul>
                                 <button>Get Scootin</button>
                         </div>

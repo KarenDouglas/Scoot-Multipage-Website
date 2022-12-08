@@ -127,51 +127,6 @@ select {
 .hide {
   display: none; }
 
-@media (min-width: 0) {
-  .nav-bar {
-    position: relative; }
-  .nav_icons {
-    padding: 50px 30px; }
-  .nav_logo {
-    margin: 0 auto;
-    text-align: center;
-    width: 100%; }
-  .nav_links {
-    flex-direction: column;
-    justify-content: space-between;
-    position: absolute;
-    background-color: #495567;
-    margin: 0;
-    padding: 100px 48px 48px 48px;
-    height: 85%;
-    width: 0;
-    text-decoration: none;
-    animation-name: menu;
-    animation-duration: 200ms;
-    animation-timing-function: ease;
-    animation-fill-mode: forwards;
-    z-index: 1; }
-  @keyframes menu {
-    from {
-      height: 85%;
-      width: 0; }
-    to {
-      height: 85%;
-      width: 75%; } }
-    .nav_links ul {
-      padding-left: 0;
-      margin: 0; }
-    .nav_links ul li a {
-      color: #f2f5f9;
-      text-decoration: none;
-      font-family: "Space Mono", monospace;
-      font-size: 2.5em;
-      line-height: 2.5em;
-      letter-spacing: -1.79px; }
-    .nav_links button {
-      height: 53px;
-      width: 192px; } }
-
 h1, h2, h3, h4 {
   font-family: "Space Mono", monospace; }
 
