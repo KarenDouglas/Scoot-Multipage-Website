@@ -1,0 +1,8 @@
+.nav_links {
+  text-decoration: none; }
+  .nav_links button {
+    height: 53px;
+    width: 180px; }
+  .nav_links ul li a {
+    text-decoration: none;
+    font-family: "Space Mono", monospace; }

@@ -11,6 +11,8 @@ import {
 import Navbar from './components/Navbar.js';
 import styles from 'css/Index.css';
 import navMobileStyles from 'css/components/navbarMobile.css';
+import navSharedStyles from 'css/components/navbarShared.css';
+import navTabletStyles from 'css/components/navTablet.css';
 
 
 export const links: LinksFunction = () => {
@@ -21,9 +23,19 @@ export const links: LinksFunction = () => {
     },
     {
       rel: "stylesheet",
+      href: navSharedStyles,
+    },
+    {
+      rel: "stylesheet",
       href: navMobileStyles,
-      media:"(max-width: 500px)"
-    }
+      media:"(min-width: 0px)",
+    },
+    {
+      rel: "stylesheet",
+      href: navTabletStyles,
+      media: "(min-width:  601px)",
+    },
+    
   ]
 }
 

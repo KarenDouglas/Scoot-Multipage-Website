@@ -29,7 +29,7 @@ export const links: LinksFunction = () => {
     {
       rel: "stylesheet",
       href: mobileStyles,
-      media: "(max-width: 500px)",
+      media: "(max-width: 600px)",
     },
   ];
 }

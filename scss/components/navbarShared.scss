@@ -1,0 +1,16 @@
+@import "scss/variables";
+@import "scss/fonts";
+
+.nav_links{
+    text-decoration: none;
+    button{
+        height: 53px;
+        width: 180px;
+       }
+       ul li a{
+           text-decoration: none;
+           font-family: $space-mono;
+        }
+}
+
+   

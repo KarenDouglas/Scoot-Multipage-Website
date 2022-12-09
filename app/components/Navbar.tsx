@@ -60,7 +60,7 @@ export default function NavBar({isOpen, setIsOpen}: MenuProps) {
                         <div className="nav_logo">
                             <i><Link
                             to="/"
-                            onClick={closeMobileMenu}
+                           onClick={closeMobileMenu}
                             >   
                                 <SvgLogo/>
 
@@ -68,10 +68,8 @@ export default function NavBar({isOpen, setIsOpen}: MenuProps) {
                             </i>
                         </div>
                     </div>
-                    <div  className={isOpen? ".overlay": ""}>
-                        <div
-                            id="nav-links" 
-                            className={isOpen? "show nav_links": "hide nav_links"}>
+                    <div  className={isOpen? ".overlay nav_links-container": "nav_links-container"}>
+                        <div id="nav-links" className={isOpen? "show nav_links": "hide nav_links"}>
                                 <ul >
                                     <NavLink 
                                     to="/about"

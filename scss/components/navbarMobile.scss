@@ -1,6 +1,4 @@
 @import "scss/variables";
-@import "scss/colors";
-@import "scss/breakpoints";
 @import "scss/fonts";
 
 .nav-bar{
@@ -25,13 +23,12 @@
     padding:100px 48px 48px 48px ;
     height: 85%;
     width: 0;
-    text-decoration: none;
     animation-name: menu;
     animation-duration: 200ms;
     animation-timing-function:ease;
     animation-fill-mode: forwards;
     z-index: 1;
-    
+
 
     @keyframes menu{
     from {height: 85%;
@@ -39,24 +36,20 @@
     to {height: 85%;
         width:75%}
     }
-    
+
     
     ul{
+        display: block;
         padding-left: 0;
         margin: 0;
     }
-            
+      
     ul li a{
     color: $snow;
-       text-decoration: none;
-       font-family: $space-mono;
        font-size: 2.5em;
        line-height: 2.5em;
        letter-spacing: -1.79px;
     }
    
-   button{
-    height: 53px;
-    width: 192px;
-   }
+
 }
