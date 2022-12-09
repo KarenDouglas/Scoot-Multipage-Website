@@ -4,7 +4,7 @@ import IMGHeroDesktop from "../assets/images/home-hero-desktop.jpg";
 import SVGRightArrow from "../assets/svg/RightArrow";
 import SVGLine from "../assets/svg/Line";
 import SVGWhiteCircles from "../assets/svg/WhiteCircles";
-import type { MetaFunction, LinksFunction } from "@remix-run/node";
+import type { LinksFunction } from "@remix-run/node";
 import mobileStyles from  "css/pages/home/homeMobile.css";
 import styles from  "css/pages/home/homeShared.css";
 import tabletStyles from  "css/pages/home/homeTablet.css";
