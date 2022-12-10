@@ -1,0 +1,18 @@
+// components shared accross multiple pages
+@import "scss/variables";
+@import "scss/fonts";
+
+.page_title_header{
+    position: relative;
+    overflow: hidden;
+}
+
+.page_title_image{
+    width: 100%;
+    object-fit: cover;
+}
+
+.page_title{
+    position: absolute;
+    color: $snow;
+}

@@ -3,6 +3,14 @@ import careersSharedStyles from  "css/pages/careers/careersShared.css";
 import careersMobileStyles from  "css/pages/careers/careersMobile.css";
 import careersTabletStyles from  "css/pages/careers/careersTablet.css";
 import careersDesktopStyles from  "css/pages/careers/careersDesktop.css";
+// header images
+import careersHeroDesktop from "~/assets/images/careers-locations-hero-desktop.jpg";
+import careersHeroTablet from "~/assets/images/careers-locations-hero-tablet.jpg";
+import careersHeroMobile from "~/assets/images/careers-location-hero-mobile.jpg";
+
+//components
+import PageTitle from "~/components/PageTitle";
+
 
 export const links: LinksFunction = () => {
   return[
@@ -32,8 +40,12 @@ export const links: LinksFunction = () => {
 export default function Index() {
     return (
       <div >
-        <h1>Careers</h1>
-        
+      <PageTitle
+      imgDesktop={careersHeroDesktop}
+      imgTablet={careersHeroTablet}
+      imgMobile={careersHeroMobile}
+      title="Careers"
+      />
       </div>
-    );
+    )
   }

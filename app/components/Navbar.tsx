@@ -24,7 +24,7 @@ interface MenuProps{
 
   
 
-export default function NavBar({isOpen, setIsOpen}: MenuProps) {
+export default function NavBar({isOpen, setIsOpen}: MenuProps) :JSX.Element{
 
 
     const toggleMenu = () => {

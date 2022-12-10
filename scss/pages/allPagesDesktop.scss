@@ -1,0 +1,23 @@
+@import "scss/variables";
+@import "scss/fonts";
+
+
+
+  
+  .page_title{
+    top: 45%;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    font-size: 2em;
+    width: 100%;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 0 0 0 50px;
+    
+  }
+  .page_svg_white-circles{
+    position: absolute;
+    top: 35%;
+    right: -40px;
+  }

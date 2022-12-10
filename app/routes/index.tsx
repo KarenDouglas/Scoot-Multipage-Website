@@ -38,8 +38,8 @@ export default function Index() {
     <>
       <div className="home_header">
         <picture>
-          <source  media="(min-width: 800px)" srcSet={IMGHeroDesktop}/>
-          <source  media="(min-width: 480px)" srcSet={IMGHeroTablet}/>
+          <source  media="(min-width: 1032px)" srcSet={IMGHeroDesktop}/>
+          <source  media="(min-width: 600px)" srcSet={IMGHeroTablet}/>
           <img className="home_header_image" src={IMGHeroMobile}/>
         </picture>
 

@@ -1,0 +1,13 @@
+.page_title {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  max-width: fit-content;
+  max-height: fit-content;
+  margin: auto;
+  font-size: 2.5em; }
+
+.page_svg_white-circles {
+  display: none; }
