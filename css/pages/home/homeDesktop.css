@@ -83,3 +83,27 @@ h1 {
 
 .home_header button {
   margin-left: 216px; }
+
+.home_description_container {
+  padding: 118px 0 0 168px;
+  display: flex;
+  position: relative;
+  gap: 2em; }
+
+.home_description-border {
+  position: absolute;
+  width: 1000px;
+  top: 150px;
+  left: 0;
+  z-index: -1; }
+
+.home_description_text {
+  max-width: 370px; }
+
+.home_description {
+  display: grid;
+  gap: 2em; }
+
+.home_description_title-container {
+  display: grid;
+  gap: 2em; }

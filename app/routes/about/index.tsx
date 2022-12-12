@@ -42,6 +42,7 @@ export default function Index():JSX.Element {
         imgMobile={aboutHeroMobile}
         title="About"
         />
+   
         </div>
     );
   }

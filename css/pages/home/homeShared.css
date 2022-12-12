@@ -27,3 +27,7 @@
 
 .home_svg-white-circles {
   background: transparent; }
+
+.home_description-border {
+  border: 15px solid #E5ECF4;
+  width: 600px; }

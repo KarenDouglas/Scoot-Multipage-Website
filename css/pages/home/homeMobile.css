@@ -60,3 +60,21 @@ h1 {
 .home_header_text {
   padding: 0 30px;
   margin: auto; }
+
+.home_description-border {
+  display: none; }
+
+.home_description {
+  display: grid;
+  text-align: center;
+  gap: 2em;
+  padding: 0 30px; }
+
+.home_description_container {
+  padding: 95px 0;
+  display: grid;
+  gap: 2em;
+  width: 100%; }
+
+.home_description_title-container {
+  padding: 0 15px; }

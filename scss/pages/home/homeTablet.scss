@@ -31,3 +31,27 @@ h1{
     text-align: center;
     margin: auto;
 }
+.home_description_container{
+    position: relative;
+    width: clamp(300px, 600px, 700px);
+    margin: 118px auto 0 auto;
+}
+
+.home_description{
+    display: flex;
+    gap: 3em;
+    align-items: center;
+    padding-top: 40px;
+}
+
+.home_description_title-container{
+    display: grid;
+    gap: 2em;
+}
+.home_description-border{
+   position: absolute;
+   transform: rotate(90deg);
+   top: 150px;
+   left: -250px;
+   z-index: -1;
+}
