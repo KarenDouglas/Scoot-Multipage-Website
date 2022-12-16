@@ -1,17 +1,27 @@
-import IMGHeroMobile from "../assets/images/home-hero-mobile.jpg";
-import IMGHeroTablet from "../assets/images/home-hero-tablet.jpg";
-import IMGHeroDesktop from "../assets/images/home-hero-desktop.jpg";
-import SVGRightArrow from "../assets/svg/RightArrow";
-import SVGLine from "../assets/svg/Line";
-import SVGWhiteCircles from "../assets/svg/WhiteCircles";
 import type { LinksFunction } from "@remix-run/node";
+//stylesheets
 import mobileStyles from  "css/pages/home/homeMobile.css";
 import styles from  "css/pages/home/homeShared.css";
 import tabletStyles from  "css/pages/home/homeTablet.css";
 import desktopStyles from  "css/pages/home/homeDesktop.css";
+// images and svgs
+import IMGHeroMobile from "../assets/images/home-hero-mobile.jpg";
+import IMGHeroTablet from "../assets/images/home-hero-tablet.jpg";
+import IMGHeroDesktop from "../assets/images/home-hero-desktop.jpg";
+import telemetry from "../assets/images/telemetry.jpg";
+import nearYou from "../assets/images/near-you.jpg";
+import payments from "../assets/images/payments.jpg";
+import SVGRightArrow from "../assets/svg/RightArrow";
+import SVGLine from "../assets/svg/Line";
+import SVGWhiteCircles from "../assets/svg/WhiteCircles";
 import SVGLocate from "../assets/svg/Locate";
 import SVGRide from "../assets/svg/Ride";
 import SVGScooter from "../assets/svg/Scooter";
+import SvgLeftDownwardArrow from "../assets/svg/LeftDownwardArrow";
+import SvgLeftUpwardArrow from "../assets/svg/LeftUpwardArrow";
+import SvgRightArrow from "../assets/svg/RightArrow";
+// components
+import PageLayoutStyle1 from "~/components/PageLayoutStyle1";
 
 export const links: LinksFunction = () => {
   return[
@@ -43,6 +53,9 @@ export default function Index() {
     title: string;
     description: string;
   }
+
+
+  
   function Description({ icon, description, title} :DescriptionProps):JSX.Element {
     return(
       <div className="home_description">
@@ -104,6 +117,38 @@ export default function Index() {
         description="Scan the QR code and the bike will unlock. Retract the cable lock, put on a helmet, 
         and you’re off! Always lock bikes away from walkways and accessibility ramps."
         />
+      </section>
+      <section className="ps1_wrapper">
+        <PageLayoutStyle1
+        img={telemetry}
+        arrowImg={<SvgLeftDownwardArrow/>}
+        arrowClass="page_left_down_arrow_center"
+        title="Easy to use riding telemetry"
+        text="The Scoot app is available with riding telemetry. This means it can show you your 
+        average speed, how long you've been using the scooter, your traveling distance, 
+        and many more things all in an easy to use app."
+        button={true}
+        />
+       <PageLayoutStyle1
+      img={nearYou}
+      arrowImg={<SvgRightArrow/>}
+      arrowClass="page_right_arrow"
+      title="Coming to a city near you"
+      text="Scoot is available in 4 major cities so far. We’re expanding rapidly, so be sure 
+      to let us know if you want to see us in your hometown. We're aiming to let our 
+      scooters loose on 23 cities over the coming year."
+      button={true}
+      />
+        <PageLayoutStyle1
+       img={payments}
+       arrowImg={<SvgLeftDownwardArrow/>}
+       arrowClass="page_left_down_arrow_top"
+       title="Zero hassle payments"
+       text="Our payment is as easy as one two three. We accept most credit cards and debit cards. 
+       You can also link your PayPal account inside the app. Need to pay later? No worries! 
+       You can defer payment for up to a month."
+       button={true}
+       />
       </section>
     </>
   );

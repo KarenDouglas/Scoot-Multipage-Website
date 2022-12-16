@@ -16,3 +16,53 @@
     position: absolute;
     color: $snow;
 }
+
+.page_s1_container{
+    overflow: hidden;
+    display: grid;
+    gap: 2em;
+    padding: 54px 0;
+}
+
+.page_s1_container{
+    width: 100%;
+    overflow: hidden;
+    text-align: center;
+}
+.page_s1_title_container{
+    display: grid;
+    gap: 2em;
+    margin: 0 auto;
+}
+
+.page_semi-circle{
+    background: $light-grey;
+    height: 445px;
+    width: 445px;
+    clip-path: circle(50%);
+    z-index: -1;
+}
+.page_s1_img {
+    display: flex;
+    position: relative;
+    img{
+    clip-path: circle(50%);
+    height: fit-content;
+    }
+}
+
+.page_s1_title_container{
+    max-width: 400px;
+button{
+        width: 180px;
+        height: 53px;
+    }
+}
+.page_left_up_arrow, 
+.page_right_arrow, 
+.page_left_down_arrow_top,
+.page_left_down_arrow_center,
+.page_right_arrow_top_center{
+    position: absolute;
+    z-index: 1;
+}

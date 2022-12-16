@@ -16,3 +16,49 @@
 .page_svg_white-circles{
     display: none;
 }
+
+//Page style 1 component
+.page_s1_container{
+    padding-top: 54px;
+}
+.page_semi-circle {
+    display: none;
+}
+
+.page_s1_img{
+    justify-content: center;
+    width: fit-content;
+    margin: 0 auto;
+    img{
+        height: 311px;
+        width: 311px;
+    }
+    
+}
+
+.page_left_down_arrow_center{
+    top: 160px;
+    right: -420px;
+
+}
+
+.page_left_up_arrow{
+    top: 40%;
+    right: -390px;
+}
+.page_right_arrow{
+    left: -200px;
+}
+.page_right_arrow_top_center{
+    left: -135px
+}
+.page_left_down_arrow_top{
+    right: -530px;
+
+}
+.page_s1_title_container{
+    margin: 0 auto;
+    button{
+        margin: 0 auto;
+    }
+}
