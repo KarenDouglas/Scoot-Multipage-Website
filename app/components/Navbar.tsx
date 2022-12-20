@@ -51,12 +51,7 @@ export default function NavBar({isOpen, setIsOpen}: MenuProps) :JSX.Element{
                     <div
                         className="flex-row align-center nav_icons"
                     >
-                            {isOpen && <i className="mobile-only nav_icon" onClick={toggleMenu}>
-                            <SvgClose/>
-                            </i> }
-                            {!isOpen &&<i className="mobile-only nav_icon"onClick={toggleMenu}>
-                            <SvgHamburger/>
-                            </i>}
+                      {isOpen ? <i className="mobile-only nav_icon" onClick={toggleMenu}><SvgClose/></i> : <i className="mobile-only nav_icon"onClick={toggleMenu}><SvgHamburger/></i>}
                         <div className="nav_logo">
                             <i><Link
                             to="/"

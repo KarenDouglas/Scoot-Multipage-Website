@@ -8,7 +8,8 @@ import {
   Scripts,
   ScrollRestoration,
 } from "@remix-run/react";
-import Navbar from './components/Navbar.js';
+
+// stylesheets
 import styles from 'css/Index.css';
 import navMobileStyles from 'css/components/navbarMobile.css';
 import navSharedStyles from 'css/components/navbarShared.css';
@@ -16,7 +17,13 @@ import navTabletStyles from 'css/components/navTablet.css';
 import pageMobileStyles from 'css/pages/allPagesMobile.css';
 import pageTabletStyles from 'css/pages/allPagesTablet.css';
 import pageDesktopStyles from 'css/pages/allPagesDesktop.css';
-
+import footerTabletStyles from 'css/components/footerTablet.css';
+import footerMobileStyles from 'css/components/footerMobile.css';
+import footerSharedStyles from "css/components/footerShared.css";
+import footerDesktopStyles from "css/components/footerDesktop.css";
+//components
+import Navbar from './components/Navbar.js';
+import Footer from './components/Footer.js';
 
 export const links: LinksFunction = () => {
   return[
@@ -53,6 +60,25 @@ export const links: LinksFunction = () => {
       href: pageMobileStyles,
       media: "(max-width: 600px)",
     },
+    {
+      rel: "stylesheet",
+      href: footerSharedStyles,
+    },
+    {
+      rel: "stylesheet",
+      href: footerDesktopStyles,
+      media: "(min-width: 1032px)",
+    },
+    {
+      rel: "stylesheet",
+      href: footerTabletStyles,
+      media: "(max-width:  1032px)",
+    },
+    {
+      rel: "stylesheet",
+      href: footerMobileStyles,
+      media:"(max-width: 600px)",
+    },
   ]
 }
 
@@ -86,6 +112,7 @@ export default function App() {
         <Scripts />
         <LiveReload />
       </body>
+      <Footer/>
     </html>
   );
 }

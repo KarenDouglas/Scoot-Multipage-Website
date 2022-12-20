@@ -1,0 +1,33 @@
+.footer_CTA {
+  padding: 0 32px; }
+  .footer_CTA h2 {
+    font-size: 2em;
+    line-height: 1em; }
+
+.footer_CTA_links svg, .footer_CTA_links svg rect {
+  width: 100%;
+  height: 100%; }
+
+.footer_CTA_links svg text {
+  font-size: .725em;
+  letter-spacing: 0; }
+
+.footer_CTA_links svg path {
+  width: 80%; }
+
+.footer_nav {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 498px;
+  text-align: center; }
+
+.footer_nav_links {
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+  margin: auto;
+  align-items: center; }
+
+.footer_social_icons {
+  margin: auto; }

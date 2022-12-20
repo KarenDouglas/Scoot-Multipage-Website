@@ -1,0 +1,46 @@
+.footer_CTA {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 300px;
+  padding: 0 auto;
+  text-align: center;
+  align-items: center;
+  direction: rtl; }
+  .footer_CTA h2 {
+    font-size: 2.5em;
+    line-height: 1em; }
+
+.footer_CTA_title {
+  max-width: 415px;
+  margin: auto auto 0 auto; }
+
+.footer_CTA_links {
+  display: flex;
+  direction: ltr;
+  gap: 1em;
+  margin: 32px auto auto auto; }
+
+.footer_semi_circles svg {
+  height: 162px;
+  width: 989px; }
+
+.footer_semi_circles {
+  right: 0;
+  bottom: 0;
+  left: 0px; }
+
+.footer_nav {
+  display: flex;
+  width: 100%;
+  text-align: center;
+  height: 96px; }
+
+.footer_nav_links {
+  display: flex;
+  gap: 1em;
+  margin: 0 auto;
+  align-items: center; }
+
+.footer_social_icons {
+  margin: auto; }

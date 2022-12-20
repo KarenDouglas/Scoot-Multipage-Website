@@ -11,7 +11,9 @@
     width: 100%;
     object-fit: cover;
 }
-
+.position_title_container{
+    position: absolute;
+}
 .page_title{
     position: absolute;
     color: $snow;

@@ -1,0 +1,40 @@
+.footer_CTA {
+  display: flex;
+  height: 300px;
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+  margin: auto 0;
+  padding: 0 168px; }
+  .footer_CTA h2 {
+    font-size: 2.5em;
+    line-height: 1em; }
+
+.footer_semi_circles {
+  right: 0;
+  bottom: 0; }
+
+.footer_semi_circles svg {
+  height: 162px;
+  width: 989px; }
+
+.footer_CTA_title {
+  max-width: 415px; }
+
+.footer_CTA_links {
+  display: flex;
+  gap: 1em; }
+
+.footer_nav {
+  display: flex;
+  height: 96px;
+  justify-content: space-between; }
+
+.footer_nav_links {
+  display: flex;
+  gap: 1em;
+  margin: auto 0 auto 168px;
+  align-items: center; }
+
+.footer_social_icons {
+  margin: auto 168px; }

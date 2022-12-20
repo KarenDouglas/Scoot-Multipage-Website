@@ -1,3 +1,15 @@
+.page_title_container {
+  padding: 0 0 0 70px; }
+
+.page_title {
+  top: 45%;
+  font-size: 2em; }
+
+.page_svg_white-circles {
+  position: absolute;
+  top: 35%;
+  right: -40px; }
+
 .page_left_up_arrow,
 .page_right_arrow,
 .page_left_down_arrow_top,

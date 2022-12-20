@@ -1,0 +1,54 @@
+@import "scss/variables";
+@import "scss/fonts";
+
+.footer_CTA{
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+}
+
+.footer_nav{
+    background-color: #3b414c;
+}
+
+.footer_semi_circles{
+position: absolute;
+}
+
+// footer nav links and social section
+
+.footer_nav_links path{
+    fill: $snow;
+}
+.footer_social_icons{
+    display: flex;
+    align-items: center;
+    gap: 1em;   
+    transition: background-color ease 200ms;
+}
+
+.footer_social_icons svg:hover  path{
+    fill: $snow;  
+}
+.footer_nav_links{
+    list-style: none;
+}
+.footer_nav_links a{
+    text-decoration: none;
+    color: $dark-grey;
+    font-family: $space-mono;
+    font-size: 1em;
+    transition: color ease 200ms;   transition: color ease 200ms;
+}
+.footer_nav_links a:hover{
+    text-decoration: none;
+    color: $yellow;
+    font-family: $space-mono;
+    font-size: 1em;
+}
+
+.footer_nav_links i{
+    padding-right: 1em;
+  
+}
+
