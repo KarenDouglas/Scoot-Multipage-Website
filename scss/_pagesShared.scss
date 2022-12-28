@@ -19,6 +19,10 @@
     color: $snow;
 }
 
+// page layout 1 component
+.ps1_wrapper{
+    margin-bottom: 66px;
+}
 .page_s1_container{
     overflow: hidden;
     display: grid;
@@ -67,4 +71,53 @@ button{
 .page_right_arrow_top_center{
     position: absolute;
     z-index: 1;
+}
+
+// page layout 2 styles
+ .ps2_wrapper{
+    display: flex;
+    justify-content: space-between;
+    max-width: 1110px;
+    margin: 0 auto;
+ }
+.ps2_content_container{
+    max-width: 350px;
+    display: grid;
+    gap: 2em;
+}
+
+.ps2_yellow_circle{
+    position: absolute;
+    bottom: -50px;
+    left: 70px;
+    width: 96px;
+    height: 96px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ps2_image img{
+    clip-path: circle(50%);
+    }
+.ps2_image{
+    position: relative;
+    width: fit-content;
+    height: fit-content;
+    margin: 40px auto;
+
+}
+.ps2_yellow_circle >p {
+    font-family: $space-mono;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 28px;
+    letter-spacing: -1.0714285373687744px;
+    text-align: center;
+
+}
+.ps2_heading{
+    font-size: 1.75em;
+    margin-bottom: 48px;
 }

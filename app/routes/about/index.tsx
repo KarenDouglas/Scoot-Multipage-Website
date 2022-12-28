@@ -12,9 +12,13 @@ import digitalEra from "~/assets/images/digital-era.jpg";
 import betterLiving from "~/assets/images/better-living.jpg";
 import SvgRightArrow from "~/assets/svg/RightArrow";
 
+
+
+
 import SvgLeftUpwardArrow from "~/assets/svg/LeftUpwardArrow";
 // components
 import PageLayoutStyle1 from "~/components/PageLayoutStyle1";
+import PageLayoutStyle2 from "~/components/PageLayoutStyle2";
 
 export const links: LinksFunction = () => {
   return[
@@ -69,6 +73,11 @@ export default function Index():JSX.Element {
       fully-electric and we offset the minimal carbon footprint for each ride."
       button={false}
       />
+        </section>
+        <section>
+          <PageLayoutStyle2
+          title="Our Values"
+          />
         </section>
       </div>
     );
