@@ -211,11 +211,14 @@ body {
   position: absolute;
   z-index: 1; }
 
+.ps1_description {
+  color: #939caa; }
+
 .ps2_wrapper {
   display: flex;
   justify-content: space-between;
   max-width: 1110px;
-  margin: 0 auto; }
+  margin: 0 auto 120px auto; }
 
 .ps2_content_container {
   max-width: 350px;
@@ -253,3 +256,6 @@ body {
 .ps2_heading {
   font-size: 1.75em;
   margin-bottom: 48px; }
+
+.ps2_description {
+  color: #939caa; }

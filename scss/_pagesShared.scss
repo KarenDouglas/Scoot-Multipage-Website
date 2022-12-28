@@ -72,13 +72,16 @@ button{
     position: absolute;
     z-index: 1;
 }
+.ps1_description{
+    color: $dark-grey;
+}
 
 // page layout 2 styles
  .ps2_wrapper{
     display: flex;
     justify-content: space-between;
     max-width: 1110px;
-    margin: 0 auto;
+    margin: 0 auto 120px auto;
  }
 .ps2_content_container{
     max-width: 350px;
@@ -120,4 +123,7 @@ button{
 .ps2_heading{
     font-size: 1.75em;
     margin-bottom: 48px;
+}
+.ps2_description{
+    color: $dark-grey;
 }

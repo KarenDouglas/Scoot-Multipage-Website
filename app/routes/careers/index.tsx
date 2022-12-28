@@ -12,7 +12,8 @@ import joinUs from "~/assets/images/join-us.jpg";
 
 //components
 import PageTitle from "~/components/PageTitle";
-import PageLayoutStyle1 from "~/components/PageLayoutStyle1"
+import PageLayoutStyle1 from "~/components/PageLayoutStyle1";
+import PageLayoutStyle2 from "~/components/PageLayoutStyle2";
 
 
 export const links: LinksFunction = () => {
@@ -61,6 +62,11 @@ export default function Index() {
           button={true}
           />
       </section>
+      <section>
+      <PageLayoutStyle2
+          title="Why Join Us"
+          />
+        </section>
       </div>
     )
   }

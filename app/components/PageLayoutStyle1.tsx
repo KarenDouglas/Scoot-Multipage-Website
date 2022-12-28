@@ -21,7 +21,7 @@ return(
         </div>
         <div className="page_s1_title_container">
             <h2>{title}</h2>
-            <p>{text}</p>
+            <p className="ps1_description">{text}</p>
            { button && <button>Learn More</button>}
 
         </div>

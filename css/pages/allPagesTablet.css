@@ -62,3 +62,14 @@
 
 .page_s1_title_container button {
   margin: 0 auto; }
+
+.ps2_wrapper {
+  flex-direction: column;
+  gap: 3.5em; }
+
+.ps2_content_container {
+  margin: 0 auto;
+  max-width: 457px; }
+
+.ps2_heading {
+  font-size: 1.5em; }
