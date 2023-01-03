@@ -1,7 +1,11 @@
+// helpers
+import { json } from "@remix-run/node"; // or cloudflare/deno
+import { useLoaderData } from "@remix-run/react";
 import type {LinksFunction } from "@remix-run/node";
+// styles
+import aboutTabletStyles from  "css/pages/about/aboutTablet.css";
 import aboutSharedStyles from  "css/pages/about/aboutShared.css";
 import aboutMobileStyles from  "css/pages/about/aboutMobile.css";
-import aboutTabletStyles from  "css/pages/about/aboutTablet.css";
 import aboutDesktopStyles from  "css/pages/about/aboutDesktop.css";
 import PageTitle from "~/components/PageTitle";
 // images and svgs
@@ -11,14 +15,15 @@ import aboutHeroMobile from "~/assets/images/about-hero-mobile.jpg";
 import digitalEra from "~/assets/images/digital-era.jpg";
 import betterLiving from "~/assets/images/better-living.jpg";
 import SvgRightArrow from "~/assets/svg/RightArrow";
-
-
-
-
 import SvgLeftUpwardArrow from "~/assets/svg/LeftUpwardArrow";
 // components
 import PageLayoutStyle1 from "~/components/PageLayoutStyle1";
 import PageLayoutStyle2 from "~/components/PageLayoutStyle2";
+import Faqs from "~/components/Faqs";
+//data
+import {faqs} from "data/db.json"
+
+
 
 export const links: LinksFunction = () => {
   return[
@@ -43,8 +48,11 @@ export const links: LinksFunction = () => {
     },
   ];
 }
-
+export const loader = async () => {
+  return json(faqs);
+};
 export default function Index():JSX.Element {
+  const faqs = useLoaderData<typeof loader>();
     return (
       <div >
         <PageTitle
@@ -78,6 +86,10 @@ export default function Index():JSX.Element {
           <PageLayoutStyle2
           title="Our Values"
           />
+        </section>
+        <section>
+        <Faqs
+        data= {faqs}/>
         </section>
       </div>
     );

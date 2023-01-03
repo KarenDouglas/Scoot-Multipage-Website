@@ -1,4 +1,8 @@
+//helpers
+import { json } from "@remix-run/node"; // or cloudflare/deno
+import { useLoaderData } from "@remix-run/react";
 import type {LinksFunction } from "@remix-run/node";
+//styles
 import careersSharedStyles from  "css/pages/careers/careersShared.css";
 import careersMobileStyles from  "css/pages/careers/careersMobile.css";
 import careersTabletStyles from  "css/pages/careers/careersTablet.css";
@@ -9,12 +13,14 @@ import careersHeroTablet from "~/assets/images/careers-locations-hero-tablet.jpg
 import careersHeroMobile from "~/assets/images/careers-location-hero-mobile.jpg";
 import SvgLeftDownwardArrow from "~/assets/svg/LeftDownwardArrow";
 import joinUs from "~/assets/images/join-us.jpg";
-
 //components
 import PageTitle from "~/components/PageTitle";
 import PageLayoutStyle1 from "~/components/PageLayoutStyle1";
 import PageLayoutStyle2 from "~/components/PageLayoutStyle2";
-
+import Faqs from "~/components/Careers";
+//data
+import {careers} from "data/db.json"
+import Careers from "~/components/Careers";
 
 export const links: LinksFunction = () => {
   return[
@@ -39,9 +45,13 @@ export const links: LinksFunction = () => {
     },
   ];
 }
+export const loader = async () => {
+  return json(careers);
+};
 
+export default function Index():JSX.Element {
+  const community = useLoaderData<typeof loader>();
 
-export default function Index() {
     return (
       <div >
       <PageTitle
@@ -65,6 +75,11 @@ export default function Index() {
       <section>
       <PageLayoutStyle2
           title="Why Join Us"
+          />
+        </section>
+        <section>
+          <Careers
+          data={careers}
           />
         </section>
       </div>
