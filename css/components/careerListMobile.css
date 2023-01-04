@@ -1,0 +1,12 @@
+.careerList_item {
+  flex-direction: column;
+  height: fit-content;
+  gap: 2em;
+  text-align: center; }
+
+.careerList_item button {
+  width: 247px;
+  height: 53px; }
+
+.careerList_item h3 {
+  line-height: -1.75px; }

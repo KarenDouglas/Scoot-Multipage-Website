@@ -13,14 +13,14 @@ export default function Careers({data}: DataProp): JSX.Element{
    
 
     return(
-        <div>
+        <div className="careerList_container">
         {data && data.map((car: CareerProps)=> (
-            <div key={car.id}>
+            <div className="careerList_item" key={car.id}>
                 <div>
                     <h3>{car.job}</h3>
                     <p>{car.location}</p>
                 </div>
-                <button></button>
+                <button>Apply</button>
             </div>
             ))}
         </div>

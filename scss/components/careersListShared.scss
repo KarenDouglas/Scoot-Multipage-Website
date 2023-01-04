@@ -1,0 +1,33 @@
+@import "scss/variables";
+@import "scss/fonts";
+button{
+    width: 180px;
+    height: 53px;
+}
+.careerList_container{
+    display: grid;
+    gap: 1em;
+    max-width: 1110px;
+    width: 100%;
+    margin: 0 auto 78px auto;
+    padding: 0 38px;
+
+
+}
+
+.careerList_item{
+    max-width: 1110px;
+    width: 100%;
+    min-height: 120px;
+    background-color: $light-grey;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 60px;
+}
+
+.careerList_item div{
+    display: grid;
+    gap: .5em;
+}
+

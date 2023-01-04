@@ -1,5 +1,5 @@
 //helpers
-import { json } from "@remix-run/node"; // or cloudflare/deno
+import { json } from "@remix-run/node"; 
 import { useLoaderData } from "@remix-run/react";
 import type {LinksFunction } from "@remix-run/node";
 //styles
@@ -7,6 +7,8 @@ import careersSharedStyles from  "css/pages/careers/careersShared.css";
 import careersMobileStyles from  "css/pages/careers/careersMobile.css";
 import careersTabletStyles from  "css/pages/careers/careersTablet.css";
 import careersDesktopStyles from  "css/pages/careers/careersDesktop.css";
+import careersListSharedStyles from "css/components/careersListShared.css";
+import careersListMobileStyles from "css/components/careerListMobile.css";
 //  images and svgs
 import careersHeroDesktop from "~/assets/images/careers-locations-hero-desktop.jpg";
 import careersHeroTablet from "~/assets/images/careers-locations-hero-tablet.jpg";
@@ -17,7 +19,7 @@ import joinUs from "~/assets/images/join-us.jpg";
 import PageTitle from "~/components/PageTitle";
 import PageLayoutStyle1 from "~/components/PageLayoutStyle1";
 import PageLayoutStyle2 from "~/components/PageLayoutStyle2";
-import Faqs from "~/components/Careers";
+
 //data
 import {careers} from "data/db.json"
 import Careers from "~/components/Careers";
@@ -43,6 +45,15 @@ export const links: LinksFunction = () => {
       href: careersMobileStyles,
       media: "(max-width: 600px)",
     },
+    {
+      rel: "stylesheet",
+      href: careersListSharedStyles,
+    },
+    {
+      rel: "stylesheet",
+      href: careersListMobileStyles,
+      media: "(max-width: 600px)",
+    },
   ];
 }
 export const loader = async () => {
@@ -50,7 +61,7 @@ export const loader = async () => {
 };
 
 export default function Index():JSX.Element {
-  const community = useLoaderData<typeof loader>();
+  const jobs = useLoaderData<typeof loader>();
 
     return (
       <div >
@@ -79,7 +90,7 @@ export default function Index():JSX.Element {
         </section>
         <section>
           <Careers
-          data={careers}
+          data={jobs}
           />
         </section>
       </div>
