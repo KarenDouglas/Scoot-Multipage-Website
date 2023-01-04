@@ -1,0 +1,14 @@
+.faq_section {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between; }
+
+.faq_faqs {
+  margin: 0 auto; }
+
+.faq_sections_container {
+  padding: 0 50px; }
+
+.faq_details h3 {
+  padding-right: 30px;
+  font-size: 1.5em; }
