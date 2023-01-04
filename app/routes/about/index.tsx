@@ -8,6 +8,7 @@ import aboutSharedStyles from  "css/pages/about/aboutShared.css";
 import aboutMobileStyles from  "css/pages/about/aboutMobile.css";
 import aboutDesktopStyles from  "css/pages/about/aboutDesktop.css";
 import PageTitle from "~/components/PageTitle";
+import faqSharedStyles from "css/components/faqShared.css"
 // images and svgs
 import aboutHeroDesktop from "~/assets/images/about-hero-desktop.jpg";
 import aboutHeroTablet from "~/assets/images/about-hero-tablet.jpg";
@@ -27,6 +28,10 @@ import {faqs} from "data/db.json"
 
 export const links: LinksFunction = () => {
   return[
+    {
+      rel: "stylesheet",
+      href: faqSharedStyles,
+    },
     {
       rel: "stylesheet",
       href: aboutSharedStyles,
@@ -89,7 +94,7 @@ export default function Index():JSX.Element {
         </section>
         <section>
         <Faqs
-        data= {faqs}/>
+        data={faqs}/>
         </section>
       </div>
     );
