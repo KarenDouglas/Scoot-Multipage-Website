@@ -10,7 +10,7 @@ import {
 } from "@remix-run/react";
 
 // stylesheets
-import styles from 'css/Index.css';
+import styles from 'css/index.css';
 import navMobileStyles from 'css/components/navbarMobile.css';
 import navSharedStyles from 'css/components/navbarShared.css';
 import navTabletStyles from 'css/components/navTablet.css';
@@ -86,6 +86,7 @@ export const meta: MetaFunction = () => ({
   charset: "utf-8",
   title: "Scoot",
   viewport: "width=device-width,initial-scale=1",
+
   
 });
 
