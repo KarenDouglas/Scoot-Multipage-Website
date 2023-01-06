@@ -3,7 +3,7 @@
   height: 300px;
   width: 100%;
   align-items: center;
-  justify-content: space-between;
+  justify-content: space-around;
   margin: auto 0;
   padding: 0 168px; }
   .footer_CTA h2 {

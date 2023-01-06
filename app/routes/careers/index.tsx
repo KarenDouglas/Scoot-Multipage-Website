@@ -19,7 +19,6 @@ import joinUs from "~/assets/images/join-us.jpg";
 import PageTitle from "~/components/PageTitle";
 import PageLayoutStyle1 from "~/components/PageLayoutStyle1";
 import PageLayoutStyle2 from "~/components/PageLayoutStyle2";
-
 //data
 import {careers} from "data/db.json"
 import Careers from "~/components/Careers";
@@ -84,15 +83,11 @@ export default function Index():JSX.Element {
           />
       </section>
       <section>
-      <PageLayoutStyle2
-          title="Why Join Us"
-          />
-        </section>
-        <section>
-          <Careers
-          data={jobs}
-          />
-        </section>
+        <PageLayoutStyle2 title="Why Join Us"/>
+      </section>
+      <section>
+        <Careers data={jobs}/>
+      </section>
       </div>
     )
   }

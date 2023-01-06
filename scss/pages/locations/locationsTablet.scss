@@ -1,7 +1,74 @@
 @import "scss/variables";
 @import "scss/fonts";
-body{
-    background-color: teal;
-    color: white;
-    
+
+.locations_worldMap_container{
+    margin: 0 auto;
+    max-width: 689px;
+    width: 100%;
+ position: relative;
+}
+.locations_worldMap{
+    max-width: 689px;
+    width: 100%;
+    margin: 0 auto;
+}
+.locations_NewYork_marker{
+    position: absolute;
+    left: 63px;
+    top: 25px;
+    margin-left: 0px;
+}
+.locations_London_marker{
+    position: absolute;
+    left: 230px;
+    top: 15px;
+    margin-left: 0px;
+}
+.locations_Yokohama_marker{
+    position: absolute;
+    right: 50px;
+    top: 50px;
+    margin-left: 0px;
+}
+.locations_Jakarta_marker{
+    position: absolute;
+    right: 100px;
+    bottom: 150px;
+    margin-left: 0px;
+}
+.locations_yellowRect{
+    height: 40px;
+    width: 130px;
+    position: relative;
+    background-color: $yellow;
+    border: none;
+}
+.locations_yellowTri{
+    height: 16px;
+    width: 32px;
+    position: absolute;
+    background-color: $yellow;
+    clip-path: polygon(50% 0, 100% 100%, 0 100%);
+    transform: rotate(180deg);
+    bottom: -16px;
+    left: 65px;    
+}
+.locations_yellowRect h3{
+    padding: 10px 0;
+    font-size: 1.25em;
+}
+
+.locations_notListed_container{
+    flex-direction: column;
+    gap: 2em;
+}
+.locations_notListed_container h2{
+    max-width: 457px;
+    width: 100%;
+    text-align: center;
+}
+.locations_notListed_container p{
+    min-width: 573px;
+    width: 100%;
+    text-align: center;
 }

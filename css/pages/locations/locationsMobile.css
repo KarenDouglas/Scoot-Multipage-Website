@@ -1,3 +1,15 @@
-body {
-  background-color: teal;
-  color: pink; }
+.locations_NewYork_marker,
+.locations_London_marker,
+.locations_Yokohama_marker,
+.locations_Jakarta_marker {
+  position: relative;
+  inset: 0; }
+
+.locations_yellowRect {
+  background-color: #fff4df;
+  width: 90%;
+  height: 72px;
+  margin: 40px auto; }
+
+.locations_yellowTri {
+  display: none; }
