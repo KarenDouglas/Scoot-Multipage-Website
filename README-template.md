@@ -16,7 +16,7 @@ This is a solution to the [Scoot website challenge on Frontend Mentor](https://w
 - [Author](#author)
 - [Acknowledgments](#acknowledgments)
 
-**Note: Delete this note and update the table of contents based on what sections you keep.**
+
 
 ## Overview
 
@@ -29,63 +29,76 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
+## Home Page for Large Screens
+![screencapture-localhost-3000-2023-01-06-16_31_15](https://user-images.githubusercontent.com/79128405/211112273-344ffc20-5f0b-417e-bd92-e848ea8062a1.png)
 
-Add a screenshot of your solution. The easiest way to do this is to use Firefox to view your project, right-click the page and select "Take a Screenshot". You can choose either a full-height screenshot or a cropped one based on how long the page is. If it's very long, it might be best to crop it.
+## About Page for Mobile Screens
+![screencapture-localhost-3000-about-2023-01-06-16_32_52](https://user-images.githubusercontent.com/79128405/211112346-1ce9e7ec-3057-47af-8c6c-d5ca28971ce0.png)
 
-Alternatively, you can use a tool like [FireShot](https://getfireshot.com/) to take the screenshot. FireShot has a free option, so you don't need to purchase it. 
+## Careers Page for Medium Screens
+![screencapture-localhost-3000-careers-2023-01-06-16_32_21](https://user-images.githubusercontent.com/79128405/211112410-ebb2bf8e-4b4a-4e7e-bd37-d1dfb0a519d8.png)
 
-Then crop/optimize/edit your image however you like, add it to your project, and update the file path in the image above.
+## Locations Page for Large Screens
+![screencapture-localhost-3000-locations-2023-01-06-16_31_44](https://user-images.githubusercontent.com/79128405/211112520-f4e84d96-9069-4a6f-bd54-9dcff8a7f574.png)
 
-**Note: Delete this note and the paragraphs above when you add your screenshot. If you prefer not to add a screenshot, feel free to remove this entire section.**
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [GitHub](https://github.com/KarenDouglas/Scoot-Multipage-Website)
+- Live Site URL: [scoot-multipage.vercel.app](https://scoot-multipage.vercel.app/)
 
 ## My process
 
 ### Built with
 
+- React
+- Remix
+- TypeScript
 - Semantic HTML5 markup
 - CSS custom properties
 - Flexbox
 - CSS Grid
 - Mobile-first workflow
-- [React](https://reactjs.org/) - JS library
-- [Next.js](https://nextjs.org/) - React framework
-- [Styled Components](https://styled-components.com/) - For styles
-
-**Note: These are just examples. Delete this note and replace the list above with your own choices**
 
 ### What I learned
+ 
+#### Remix
+  First of all, Scoot is my introduction to coding with Remix and a meta-framework in general. Since this is a simple app, I got to dabble in just a few key concepts of Remix. I organized routes with Remix's file-based routing system. 
+-  Index Routes 
+-  Loading Data
+-  Linking StyleSheets
+-  Responsive Layout Handling with Vanilla CSS
+-  SVG components
 
-Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
+#### TypeScript
+  After working in TypeScript, the first thing I learned was that I will be using this on every JavaScript heavy project  moving forward. I really appreciated how TypeScript can be leveraged for editing code, too. I experienced how stactic type-checking helps to prevent unnecessary bugs in my code on one hand, and it teaches me how to plan my coding logic better from the start, on the other hand. In addition, I benefited from more specific TypeErrors, making the debugging process smoother.
 
-To see how you can add code snippets, see below:
+- Defining Types
+- Explisit types
+- TypeErrors
+- The TypeScript Compiler
+- Interface Declaration
+- Generics
+- TSX
 
-```html
-<h1>Some HTML code I'm proud of</h1>
-```
-```css
-.proud-of-this-css {
-  color: papayawhip;
-}
-```
-```js
-const proudOfThisFunc = () => {
-  console.log('🎉')
-}
-```
-
-If you want more help with writing markdown, we'd recommend checking out [The Markdown Guide](https://www.markdownguide.org/) to learn more.
-
-**Note: Delete this note and the content within this section and replace with your own learnings.**
+#### HTML
+- Details HTML Tag
+- Picture & Source Tag
 
 ### Continued development
 
-Use this section to outline areas that you want to continue focusing on in future projects. These could be concepts you're still not completely comfortable with or techniques you found useful that you want to refine and perfect.
+#### Project Planning
+  Throughout this challenge, I noticed how many problems would have been solved with thorough project planning. For example, I didn't put a lot of thought into naming conventions for my React components nor  my css classes. As a result, some of my class and components names lack an intuitiveness, which makes it less readable. 
+  Not only that, I saw an opportunity to improve how I plan writing stylesheets moving forward. For one, Remix requires developers to make separate stylesheets for different screen sizes(when styling with vanilla css). Looking back on how I styled this project I realize how inefficient my stylsheets were arrange. For instance, I made a stylesheet for each main section of a webpage (navbar, footer, hero section, faq section, careers list section, etc), and for each screen size(desktop, mobile and tablet), instead of creating a stylesheet for each screen-size and adding the appropriate component to each page. 
+
+#### Estimating Build Time
+   Estimating how long it would take me to build this project is another area I need to improve on, as I was off by a large margin. I wasn't able to predict how challenging some aspects of building this project would be. Plus I was learning a lot of different things in this one project (Remix, TypeScript more complex CSS) that I didn't predict how this learning curb would effect the timeframe. All in all, I feel certain that my estimations will be more accurate on my next challenge.    
+
+#### TypeScript
+  Even though, I learned some TypeScript while building this web app, I know I am barely scratching the surface of this language. On my next project, I will be aiming to get more intuitive with TypeScript.
+
+#### Remix
+  It wasn't until I completed my  
 
 **Note: Delete this note and the content within this section and replace with your own plans for continued development.**
 
