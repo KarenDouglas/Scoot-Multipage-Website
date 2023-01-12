@@ -4,6 +4,8 @@ import { json } from "@remix-run/node";
 //data
 import {faqs} from "data/db.json";
 
+
+
 export const loader = async () => {
   return json(faqs);
 };

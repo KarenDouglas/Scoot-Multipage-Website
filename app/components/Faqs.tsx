@@ -32,7 +32,7 @@ export default function Faqs({data}: Faqs): JSX.Element{
                     <h2 className="faq_section_title"key={faq.id}>{faq.section}</h2>
                     <div className="faq_faqs">
                         {faq.questions && faq.questions.map((q: Questions)=> (
-                        <details className="faq_details" key={q.id}>
+                        <details className="faq_details" key={q.id} onClick={(e)=> console.log("toggled")}>
                             <summary>
                                 <h3>{q.question}</h3>
                                 <i><SvgChevron/></i>

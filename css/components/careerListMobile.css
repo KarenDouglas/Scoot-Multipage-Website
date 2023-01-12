@@ -1,8 +1,13 @@
+.careerList_container {
+  padding: 0; }
+
 .careerList_item {
   flex-direction: column;
   height: fit-content;
   gap: 2em;
-  text-align: center; }
+  text-align: center;
+  width: clamp(311px, 400px, 80vw);
+  margin: 0 auto; }
 
 .careerList_item button {
   width: 247px;

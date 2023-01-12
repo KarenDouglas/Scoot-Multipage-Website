@@ -73,7 +73,7 @@
     
 .page_s1_title_container{
     h2{
-     font-size: 2.5em;
+        font-size: clamp(2em, 5vw, 2.5em);
      line-height: 1em; 
     }
     button{

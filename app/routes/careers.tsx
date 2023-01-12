@@ -21,7 +21,6 @@ import PageLayoutStyle1 from "~/components/PageLayoutStyle1";
 import PageLayoutStyle2 from "~/components/PageLayoutStyle2";
 //data
 import {careers} from "data/db.json"
-import Careers from "~/components/Careers";
 
 export const links: LinksFunction = () => {
   return[
@@ -55,12 +54,9 @@ export const links: LinksFunction = () => {
     },
   ];
 }
-export const loader = async () => {
-  return json(careers);
-};
+
 
 export default function Index():JSX.Element {
-  const jobs = useLoaderData<typeof loader>();
 
     return (
       <div >

@@ -63,7 +63,10 @@ Users should be able to:
 ### What I learned
  
 #### Remix
-  First of all, Scoot is my introduction to coding with Remix and a meta-framework in general. Since this is a simple app, I got to dabble in just a few key concepts of Remix. I organized routes with Remix's file-based routing system. 
+  First of all, Scoot is my introduction to coding with Remix and a meta-framework in general. Since this is a simple app, I got to dabble in just a few key concepts of Remix. I learned how to implement Remix's file-based routing system for my page routes and respective nested index routes.  To render JSON data, I applied it's builtin  One really surprising skill I improved on was, reading documentation. As Remix is a fairly new meta-framework, there isn't a lot of information available, so I have to rely more on the documentation. As a result, my ability to understand documentation in general has improved.
+
+-  Nested Routes
+-  Remix Outlet Component
 -  Index Routes 
 -  Loading Data
 -  Linking StyleSheets
@@ -82,8 +85,12 @@ Users should be able to:
 - TSX
 
 #### HTML
-- Details HTML Tag
+This project has also expanded my understanding of HTML. Before building Scoot, I had never used the "details" nor "summary" tag before. Not only that, I was introduced to CSS "attribute selectors" as a way to create animations. While furthering my understand of responsive design, I learned how "picture" and "source"  use multiple images to more nicely fill the browser viewport.
+- Details & Summary HTML Tag
+- CSS Attribute Selectors
 - Picture & Source Tag
+- Viewport Units
+- CSS Clamp() Propertyy
 
 ### Continued development
 
@@ -94,31 +101,15 @@ Users should be able to:
 #### Estimating Build Time
    Estimating how long it would take me to build this project is another area I need to improve on, as I was off by a large margin. I wasn't able to predict how challenging some aspects of building this project would be. Plus I was learning a lot of different things in this one project (Remix, TypeScript more complex CSS) that I didn't predict how this learning curb would effect the timeframe. All in all, I feel certain that my estimations will be more accurate on my next challenge.    
 
-#### TypeScript
-  Even though, I learned some TypeScript while building this web app, I know I am barely scratching the surface of this language. On my next project, I will be aiming to get more intuitive with TypeScript.
+#### TypeScript & Remix
+  Even though, I learned some TypeScript and Remix while building this web app, I know I am barely scratching the surface of understandig. On my next project, I will be aiming to get more intuitive with them. Not only that, I will aim to take advantage of more of their features.
 
-#### Remix
-  It wasn't until I completed my  
-
-**Note: Delete this note and the content within this section and replace with your own plans for continued development.**
-
-### Useful resources
-
-- [Example resource 1](https://www.example.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
-- [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
-
-**Note: Delete this note and replace the list above with resources that helped you during the challenge. These could come in handy for anyone viewing your solution or for yourself when you look back on this project in the future.**
 
 ## Author
 
-- Website - [Add your name here](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-- Twitter - [@yourusername](https://www.twitter.com/yourusername)
+- LinkedIn - [@KarenDouglas](https://www.linkedin.com/in/karen-douglas-344974246/)
+- Frontend Mentor - [@KarenDouglas](https://www.frontendmentor.io/profile/KarenDouglas)
+- Twitter - [@CodeNoob4Life](https://twitter.com/CodeNoob4Life)
 
-**Note: Delete this note and add/remove/edit lines above based on what links you'd like to share.**
 
-## Acknowledgments
 
-This is where you can give a hat tip to anyone who helped you out on this project. Perhaps you worked in a team or got some inspiration from someone else's solution. This is the perfect place to give them some credit.
-
-**Note: Delete this note and edit this section's content as necessary. If you completed this challenge by yourself, feel free to delete this section entirely.**
