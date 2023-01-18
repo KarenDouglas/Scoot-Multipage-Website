@@ -29,36 +29,40 @@ return(
       <div className="footer_semi_circles">
         <SvgSemiCircles/>
       </div>
-        <div className="footer_CTA_title">
-            <h2 className="text-snow">Sign up and Scoot off Today</h2>
-        </div>
-        <div className="footer_CTA_links">
-          <a href="/"><SvgAppStore/></a>
-          <a href="/"><SvgGooglePlay/></a>
-        </div>
-    </div>
-    <div className="footer_nav">
-      <div className="footer_nav_links">
-        <a href="/">
-          <i><SvgLogo/></i>
-        </a>
-          <NavLink
-          to="/about"
-          title="About"
-          />
-          <NavLink
-          to="/locations"
-          title="Locations"
-          />
-          <NavLink
-          to="/careers"
-          title="Careers"
-          />
+      <div className="footer_CTA_links_container">
+          <div className="footer_CTA_title">
+              <h2 className="text-snow">Sign up and Scoot off Today</h2>
+          </div>
+          <div className="footer_CTA_links">
+            <a href="/"><SvgAppStore/></a>
+            <a href="/"><SvgGooglePlay/></a>
+          </div>
       </div>
-      <div className="footer_social_icons">
-        <i><SvgFacebook/></i>
-        <i><SvgTwitter/></i>
-        <i><SvgInstagram/></i>
+    </div>
+    <div  className="footer_nav">
+      <div className="nav_wrapper">
+        <div className="footer_nav_links">
+          <a href="/">
+            <i><SvgLogo/></i>
+          </a>
+            <NavLink
+            to="/about"
+            title="About"
+            />
+            <NavLink
+            to="/locations"
+            title="Locations"
+            />
+            <NavLink
+            to="/careers"
+            title="Careers"
+            />
+        </div>
+        <div className="footer_social_icons">
+          <i><SvgFacebook/></i>
+          <i><SvgTwitter/></i>
+          <i><SvgInstagram/></i>
+        </div>
       </div>
     </div>
   </footer>

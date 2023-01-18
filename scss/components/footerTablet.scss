@@ -2,13 +2,11 @@
 @import "scss/fonts";
 
 .footer_CTA{
-    display: flex;
-    flex-direction: column;
     width: 100%;
     height: 300px;
-    padding: 0 auto;
     text-align: center;
     align-items: center;
+    padding-top: 70px;
     direction: rtl;
 
     h2{
@@ -26,6 +24,10 @@
     gap: 1em;
     margin: 32px auto auto auto;
 
+}
+
+.footer_CTA_links_container{
+    flex-direction: column;
 }
 .footer_semi_circles svg{
     height: 162px;

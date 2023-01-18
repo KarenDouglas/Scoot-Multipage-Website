@@ -1,11 +1,9 @@
 .footer_CTA {
-  display: flex;
-  flex-direction: column;
   width: 100%;
   height: 300px;
-  padding: 0 auto;
   text-align: center;
   align-items: center;
+  padding-top: 70px;
   direction: rtl; }
   .footer_CTA h2 {
     font-size: 2.5em;
@@ -20,6 +18,9 @@
   direction: ltr;
   gap: 1em;
   margin: 32px auto auto auto; }
+
+.footer_CTA_links_container {
+  flex-direction: column; }
 
 .footer_semi_circles svg {
   height: 162px;

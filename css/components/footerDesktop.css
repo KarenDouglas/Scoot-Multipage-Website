@@ -1,11 +1,8 @@
 .footer_CTA {
-  display: flex;
   height: 300px;
   width: 100%;
-  align-items: center;
-  justify-content: space-around;
   margin: auto 0;
-  padding: 0 168px; }
+  padding-top: 125px; }
   .footer_CTA h2 {
     font-size: 2.5em;
     line-height: 1em; }
@@ -33,7 +30,6 @@
 .footer_nav_links {
   display: flex;
   gap: 1em;
-  margin: auto 0 auto 168px;
   align-items: center; }
 
 .footer_social_icons {

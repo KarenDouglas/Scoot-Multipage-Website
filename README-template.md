@@ -28,9 +28,8 @@ Users should be able to:
 - See hover states for all interactive elements throughout the site
 
 ### Screenshot
-
-## Home Page for Large Screens
-![screencapture-localhost-3000-2023-01-06-16_31_15](https://user-images.githubusercontent.com/79128405/211112273-344ffc20-5f0b-417e-bd92-e848ea8062a1.png)
+## Home Page
+![Etsy Item Listing Photo](https://user-images.githubusercontent.com/79128405/213305855-3d7fb471-93c9-405a-a4c1-41e78f147806.png)
 
 ## About Page for Mobile Screens
 ![screencapture-localhost-3000-about-2023-01-06-16_32_52](https://user-images.githubusercontent.com/79128405/211112346-1ce9e7ec-3057-47af-8c6c-d5ca28971ce0.png)
