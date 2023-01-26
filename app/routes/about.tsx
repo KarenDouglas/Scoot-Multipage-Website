@@ -21,8 +21,6 @@ import SvgLeftUpwardArrow from "~/assets/svg/LeftUpwardArrow";
 // components
 import PageLayoutStyle1 from "~/components/PageLayoutStyle1";
 import PageLayoutStyle2 from "~/components/PageLayoutStyle2";
-//data
-import {faqs} from "data/db.json";
 
 
 
