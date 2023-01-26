@@ -1,8 +1,8 @@
 import * as React from "react";
 const SvgGooglePlay = (props) => (
-  <svg className="gplay" xmlns="http://www.w3.org/2000/svg" width={182}  {...props}>
+  <svg xmlns="http://www.w3.org/2000/svg" width={182} height={56} {...props}>
     <g fill="none" fillRule="evenodd">
-      <rect  fill="#E5ECF4" rx={4} />
+      <rect width={182} height={56} fill="#E5ECF4" rx={4} />
       <g
         fill="#495567"
         fontFamily="SpaceMono-Bold, Space Mono"
