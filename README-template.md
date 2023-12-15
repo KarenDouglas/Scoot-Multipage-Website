@@ -1,12 +1,11 @@
 # Frontend Mentor - Scoot website solution
 
 This is a solution to the [Scoot website challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/scoot-multipage-website-N76alNPRJ). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
-
+![Etsy Item Listing Photo](https://user-images.githubusercontent.com/79128405/213305855-3d7fb471-93c9-405a-a4c1-41e78f147806.png)
 ## Table of contents
 
 - [Overview](#overview)
   - [The challenge](#the-challenge)
-  - [Screenshot](#screenshot)
   - [Links](#links)
 - [My process](#my-process)
   - [Built with](#built-with)
@@ -14,7 +13,8 @@ This is a solution to the [Scoot website challenge on Frontend Mentor](https://w
   - [Continued development](#continued-development)
   - [Useful resources](#useful-resources)
 - [Author](#author)
-- [Acknowledgments](#acknowledgments)
+  - [Screenshots](#screenshots)
+
 
 
 
@@ -27,18 +27,6 @@ Users should be able to:
 - View the optimal layout for each page depending on their device's screen size
 - See hover states for all interactive elements throughout the site
 
-### Screenshot
-## Home Page
-![Etsy Item Listing Photo](https://user-images.githubusercontent.com/79128405/213305855-3d7fb471-93c9-405a-a4c1-41e78f147806.png)
-
-## About Page for Mobile Screens
-![screencapture-localhost-3000-about-2023-01-06-16_32_52](https://user-images.githubusercontent.com/79128405/211112346-1ce9e7ec-3057-47af-8c6c-d5ca28971ce0.png)
-
-## Careers Page for Medium Screens
-![screencapture-localhost-3000-careers-2023-01-06-16_32_21](https://user-images.githubusercontent.com/79128405/211112410-ebb2bf8e-4b4a-4e7e-bd37-d1dfb0a519d8.png)
-
-## Locations Page for Large Screens
-![screencapture-localhost-3000-locations-2023-01-06-16_31_44](https://user-images.githubusercontent.com/79128405/211112520-f4e84d96-9069-4a6f-bd54-9dcff8a7f574.png)
 
 
 ### Links
@@ -107,6 +95,20 @@ This project has also expanded my understanding of HTML. Before building Scoot, 
 - LinkedIn - [@KarenDouglas](https://www.linkedin.com/in/karen-douglas-344974246/)
 - Frontend Mentor - [@KarenDouglas](https://www.frontendmentor.io/profile/KarenDouglas)
 - Twitter - [@CodeNoob4Life](https://twitter.com/CodeNoob4Life)
+
+  ### Screenshots
+## Home Page
+![Etsy Item Listing Photo](https://user-images.githubusercontent.com/79128405/213305855-3d7fb471-93c9-405a-a4c1-41e78f147806.png)
+
+## About Page for Mobile Screens
+![screencapture-localhost-3000-about-2023-01-06-16_32_52](https://user-images.githubusercontent.com/79128405/211112346-1ce9e7ec-3057-47af-8c6c-d5ca28971ce0.png)
+
+## Careers Page for Medium Screens
+![screencapture-localhost-3000-careers-2023-01-06-16_32_21](https://user-images.githubusercontent.com/79128405/211112410-ebb2bf8e-4b4a-4e7e-bd37-d1dfb0a519d8.png)
+
+## Locations Page for Large Screens
+![screencapture-localhost-3000-locations-2023-01-06-16_31_44](https://user-images.githubusercontent.com/79128405/211112520-f4e84d96-9069-4a6f-bd54-9dcff8a7f574.png)
+
 
 
 
